@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+  }
+
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p {
+    border-radius: 5px;
+    background-color: #aaa;
+    padding: 1px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 500px) {
+    p {
+        font-size: 16px;
+    }
+    
+  }
